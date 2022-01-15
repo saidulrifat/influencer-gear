@@ -335,3 +335,39 @@ footer a{
         margin: 10px 20px;
     }
 }
+@media only screen and (max-width:688px) {
+    
+    .front-page{
+        display: flex;
+        flex-direction: column;
+        margin:10%;
+    }
+    .main-product-details{
+        width: auto;
+        margin: 50px;
+    }
+    .main-image img{
+        width: 100%;
+        padding: 50px;
+    }
+    
+    .popular-collections{
+        width: 100%;
+        margin: 5%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: start;
+        justify-content: center;
+
+    }
+    .support-session{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
