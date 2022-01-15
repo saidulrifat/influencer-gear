@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+/*----------------- 
+    header style  
+-------------------*/
+/* header{ */
+    /* margin: 110px; */
+
+/* } */
+/* =============nav-bar-style ========== */
+.topnav {
+    background-color:#504e4ef5;
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(3, 0, 14);
+}
+
+.topnav a.active {
+    background-color: rgba(199, 67, 144, 0.911);
+    color: white;
+}
+/* ==========nav-end  ==============*/
+/* --------------------
+     .front-page
+----------------------- */
+.front-page{
+    display: flex;
+    align-items: center;
+    margin: 110px;
+    
+}
+.main-product-heading{
+    font-weight: 700px;
+    font-size: 40px;
+}
+.main-product-details{
+    width: 582px;
+    height: 270px;
+    padding-right: 150px;
+}
+.prebook-button{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: #E02C6D;
+    height: 44px;
+    width: 196px;
+    border-radius: 41px;
+    margin-top: 17px;
+ }
+.prebook-button a{
+    text-decoration: none;
+    color: white;
+}
+.fa-arrow-right{
+    font-size: 14px;
+    margin-left: 10px;
+
+}
+.main-image{
+    width: 440px;
+    height: 414px;
+}
+.front-page:hover .main-image{
+    transform: scaleX(1.3) rotate(20deg);
+    transition: transform 4s;
+}
