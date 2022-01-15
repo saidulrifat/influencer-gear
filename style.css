@@ -180,3 +180,66 @@ ul{
 .see-more a{
     text-decoration: none;
 }
+/*--------------------- 
+     support-session
+--------------------- */
+.support-heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+.support-session{
+    display: flex;
+    justify-content: center;
+}
+.service-info{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    background-color: rgba(211, 224, 233, 0.377);
+    margin-left: 40px;
+    padding: 2em;
+    box-shadow: 5px 5px 5px 5px rgba(131, 123, 123, 0.507);
+    border-radius: 10px;
+}
+.service-info:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+.services{
+    font-size: 40px;
+    text-align: center;
+}
+.chat{
+    text-decoration: none;
+}/*--------------------- 
+     support-session
+--------------------- */
+.support-heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+.support-session{
+    display: flex;
+    justify-content: center;
+}
+.service-info{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    background-color: rgba(211, 224, 233, 0.377);
+    margin-left: 40px;
+    padding: 2em;
+    box-shadow: 5px 5px 5px 5px rgba(131, 123, 123, 0.507);
+    border-radius: 10px;
+}
+.service-info:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+.services{
+    font-size: 40px;
+    text-align: center;
+}
+.chat{
+    text-decoration: none;
+}
