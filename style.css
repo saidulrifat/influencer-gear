@@ -85,3 +85,23 @@ body{
     transform: scaleX(1.3) rotate(20deg);
     transition: transform 4s;
 }
+/*-------------------
+    website icons
+--------------------- */
+.websites{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1110px;
+    height: 110px;
+    border-top: 2px solid rgba(95, 158, 160, 0.418);
+    border-bottom: 2px solid rgba(95, 158, 160, 0.418);
+    margin-left: 150px;
+}
+.web-icons{
+    width: 10%;
+}
+.web-icons:hover{
+    transform: scale(1.3);
+    transition: transform 1s;
+}
