@@ -275,3 +275,25 @@ ul{
     margin-left: 30px;
     padding-left: 20px;
 }
+/* ---------------
+       footer
+--------------------*/
+footer{
+    text-align: center;
+    padding: 2% 2%;
+    margin: 0;
+    color: white;
+    background-color: #020114f1;
+}
+footer h3{
+    font-style: italic;
+    
+}
+footer p{
+    font-size: 12px;
+}
+footer a{
+    font-size: 20px;
+    color: white;
+    margin: 15px;
+}
