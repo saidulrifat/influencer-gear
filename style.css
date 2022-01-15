@@ -297,3 +297,41 @@ footer a{
     color: white;
     margin: 15px;
 }
+
+/* ----------------
+   media queries
+------------------ */
+@media only screen and (max-width:992px) {
+    
+    .front-page{
+        display: flex;
+        flex-direction: column;
+        margin:5%;
+    }
+    .main-product-details{
+        width: auto;
+        margin: 50px;
+    }
+    .main-image img{
+        width: 60%;
+        padding: 50px;
+    }
+    .websites{
+        display: none;
+    }
+    .popular-collections{
+        /* width: 100%; */
+        margin: 5%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: start;
+
+    }
+    .support-session{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contact{
+        margin: 10px 20px;
+    }
+}
