@@ -7,10 +7,10 @@ body{
 /*----------------- 
     header style  
 -------------------*/
-/* header{ */
-    /* margin: 110px; */
-
-/* } */
+header h2{
+    margin-left: 7%;
+    font-size: 26px;
+}
 /* =============nav-bar-style ========== */
 .topnav {
     background-color:#504e4ef5;
@@ -336,7 +336,6 @@ footer a{
     }
 }
 @media only screen and (max-width:688px) {
-    
     .front-page{
         display: flex;
         flex-direction: column;
